@@ -140,7 +140,7 @@ header li a {
 	padding: 1px;
 	border: none;
 	border-bottom: 3px solid;
-    border-image: linear-gradient(to right, #ff3333 0%, #FFF 100%);
+	border-image: linear-gradient(to right, #ff3333 0%, #FFF 100%);
 	border-image-slice: 1;
 	font-family: 'Indie Flower';
 }
