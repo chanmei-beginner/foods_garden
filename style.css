@@ -1,0 +1,282 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'Arial',sans-serif;
+	color: #424242;
+	height: 100%;
+
+}
+
+.wrapper {
+/*	max-width: 1320px;*/
+	margin: 0 auto;
+
+}
+
+/*header*/
+header {
+	position: relative;
+	height: 40vh;
+	background: url(images/header-b.jpg) center / cover;
+	object-fit: cover;
+	width: 100%;
+}
+
+header li a {
+	color: black;
+	font-family: 'Indie Flower';
+	text-decoration: none;
+}
+
+.header-space {
+	padding: 2px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	background-color: azure;
+	opacity: 0.5;
+	position: fixed;
+	width: 100%;
+
+}
+
+.logo {
+	list-style-type: none;
+	font-size: 130%;
+	padding-left: 10px;
+	color: black;
+
+}
+
+.logo:hover {
+	opacity: 0.5;
+}
+
+.fa-search {
+	margin-right: 2px;
+	color: black;
+	opacity: 0.6;
+
+}
+
+.hamburger-list {
+	margin: 30px;
+	font-size: 150%;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+
+}
+
+.hamburger-list:hover {
+	opacity: 0.5;
+
+}
+
+.list {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 78px;
+	margin-right: 0;
+	background-color: aliceblue;
+
+}
+
+.list .menu-list {
+	list-style: none;
+	padding: 0;
+	color: black;
+
+}
+
+.list .menu-list .menu-item {
+	border-bottom: 3px solid;
+	border-image: linear-gradient(to right, #ff3333 0%, #FFF 100%);
+	border-image-slice: 1;
+	font-size: 120%;
+	margin: 10px;
+
+}
+
+.list .menu-list .menu-item:hover {
+	opacity: 0.5;
+}
+
+.header-message {
+	position: absolute;
+	top: 81%;
+/*	bottom: 0;*/
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	
+}
+
+.header-message p {
+	text-align: center;
+}
+
+/*headerここまで*/
+
+
+/*メインコンテンツ*/
+.container {
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.side h1 {
+	margin-top: 0;
+	padding: 1px;
+	border: none;
+	border-bottom: 3px solid;
+    border-image: linear-gradient(to right, #ff3333 0%, #FFF 100%);
+	border-image-slice: 1;
+	font-family: 'Indie Flower';
+}
+
+.side h1::before {
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 900;
+	content: "\f6be";
+	color: #cfa684;
+	margin-right: 5px;
+}
+
+.search_container {
+	box-sizing: border-box;
+	position: relative;
+	border: 1px solid #999;
+	padding: 3px 10px;
+	border-radius: 20px;
+	height: 2.3em;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.search_container input[type="text"] {
+	border: none;
+	height: 2.0em;
+}
+
+.search_container input[type="text"]:focus {
+	outline: 0;
+}
+
+.search_container input[type="submit"] {
+	cursor: pointer;
+	font-family: FontAwesome;
+	font-size: 1.3em;
+	border: none;
+	background: none;
+	color: rgb(96,96,96);
+	position: absolute;
+	width: 2.5em;
+	height: 2.5em;
+	right: 0;
+	top: -7px;
+	outline: none;
+}
+
+.page-top-logo {
+	display: flex;
+	justify-content: flex-end;
+	margin: 5px;
+}
+
+.fa-arrow-alt-circle-up {
+	color: rgb(96,96,96);
+	opacity: 0.7;
+}
+
+#page_top {
+	position: fixed;
+	bottom: 110px;
+	right: 10px;
+	font-size: 200%;
+	text-decoration: none;
+	color: black;
+	list-style-type: none;
+	
+}
+/*メインコンテンツここまで*/
+
+
+/*footer*/
+footer {
+	height: 16vh;
+	opacity: 0.6;
+	border-top: solid 5px #5d627b;
+	background: url(images/header-b.jpg) center / cover;
+	object-fit: cover;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+
+}
+
+footer li a {
+	color: black;
+	font-family: 'Indie Flower';
+	text-decoration: none;
+
+}
+
+.footer-space {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 5%;
+}
+
+.footer-logo li {
+	font-size: 100%;
+}
+
+.small-footer-logo {
+	display: none;
+}
+
+.follow-me {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+
+
+}
+
+.follow-me p {
+	font-family: 'Indie Flower';
+	color: black;
+}
+
+.follow-me li {
+	padding: 10px;
+	margin-top: 15px;
+
+}
+
+.fa-twitter,
+.fa-instagram {
+	font-size: 180%;
+}
+
+.fa-twitter:hover {
+	opacity: 0.5;
+}
+
+.fa-instagram:hover {
+	opacity: 0.5;
+}
+/*footerここまで*/

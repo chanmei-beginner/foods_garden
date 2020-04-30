@@ -1,0 +1,95 @@
+@media (min-width: 740px) {
+	.header-space {
+		padding: 2px;
+		display: flex;
+		justify-content: space-between;
+		height: 80px;
+		background-color: azure;
+		opacity: 0.5;
+		position: fixed;
+		width: 100%;
+	}
+
+	.logo {
+		list-style-type: none;
+		font-size: 180%;
+		color: black;
+
+	}
+
+	.list {
+		display: block;
+		right: 10px;
+		top: 10px;
+	}
+
+	.list .menu-list {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		color: black;
+	}
+
+	.hamburger-list {
+		display: none;
+	}
+
+	.container {
+		display: flex;
+/*		margin: 50px calc((100vw - 1020px) / 2);*/
+		margin: 50px 100px;
+		justify-content: space-between;
+	}
+
+	.main {
+		width: 68%;
+		margin-top: 0;
+		padding-top: 1px;
+
+	}
+
+	.side {
+		width: 26%;
+		margin-top: 0;
+		padding: 1px;
+
+	}
+}
+
+@media (max-width: 370px) {
+	footer {
+		height: 25vh;
+		opacity: 0.5;
+		border-top: solid 5px #5d627b;
+		position: relative;
+		bottom: 0;
+
+	}
+
+	.footer-space {
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	.follow-me {
+		list-style-type: none;
+		padding-left: 2px;
+		margin-top: 2px;
+
+	}
+
+	.footer-logo {
+		display: none;
+	}
+
+	.small-footer-logo {
+		display: block;
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 2px;
+	}
+
+}
